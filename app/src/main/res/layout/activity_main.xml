@@ -11,25 +11,25 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/time"
+        android:layout_above="@+id/text_time"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:src="@mipmap/clock_hdpi"/>
 
     <TextView
-        android:id="@+id/time"
+        android:id="@+id/text_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:text="0:00"
+        android:text="00:00"
         android:textSize="126sp"/>
 
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/time"
+        android:layout_below="@+id/text_time"
         android:layout_centerHorizontal="true"
         android:background="@drawable/toggle_selector"
         android:text="New ToggleButton"
